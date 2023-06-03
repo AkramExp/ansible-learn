@@ -29,7 +29,7 @@
   - name: untar the application
     unarchive:
       src: "{{location}}"
-      dest: /home/{{linux_name}}/
+      dest: "{{user_home_dir}}"
   - name: Install dependencies
     npm:
       path: /home/{{linux_name}}/package
