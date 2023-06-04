@@ -1,6 +1,0 @@
-version: 1.0.0
-location: /home/akram/Documents/DevopsPractice/nodejs-app/nodejs-app-{{version}}.tgz
-linux_name: akram
-user_home_dir: /home/{{linux_name}}
-
-docker_password: shambles123*
