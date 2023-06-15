@@ -20,7 +20,7 @@
         state: present
     - name: install docker compose
       get_url:
-        url:  curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Linux-{{lookup('pipe','uname -m')}}
+        url: https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Linux-{{lookup('pipe','uname -m')}}
         dest: /usr/local/bin/docker-compose
         mode: +x
     - name: install python docker module
